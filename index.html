@@ -18,17 +18,19 @@
 				margin-left: auto;
 				margin-right: auto;
 			}			
-			
-			.header
-			{
-				background-color: DarkGreen;
-				height: 150px;
-				
-				position: relative;
-				margin: 0px;
-			}
-			
-			
+							
+							.header
+							{
+								background-color: DarkGreen;
+								background-image: url('tempHeader.png');
+								background-repeat: no-repeat;
+								background-size: cover;
+								
+								height: 175px;
+								position: relative;
+								margin: 0px;
+								
+							}
 			
 			
 			ul {
@@ -36,7 +38,6 @@
 				margin: 0;
 				padding: 0;
 				overflow: hidden;
-				background-color: #333;
 				position: absolute;
 				bottom: 0px;
 			}
@@ -55,17 +56,22 @@
 			}
 
 			li a:hover:not(.active) {
-				background-color: #111;
+				background-color: Pink;
 			}
 
 			.active {
-				background-color: #04AA6D;
+				background-color: Red;
 			}
 						
-				
+			.mainTitle
+			{
+				font-size: 32px;
+				position: relative;
+				padding: 12px;
+			}
 	
-
 			
+							
 			
 		</style>
 	</head>
@@ -77,6 +83,8 @@
 
 		<div class="blk">
 			<div class="header">
+				<p class="mainTitle">hellooo </p>
+			
 				<ul>
 					<li><a class="active" href="#home">Home</a></li>
 					<li><a href="#news">News</a></li>
