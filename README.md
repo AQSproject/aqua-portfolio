@@ -1,4 +1,8 @@
 # aqua-portfolio
+EDIT [20 June 2022]
+Transfered this repo from older account. Archiving due to work not being done to this. 
+
+
 [30 sept 2020]
 Personal project to sharpen html/css skills. 
 
